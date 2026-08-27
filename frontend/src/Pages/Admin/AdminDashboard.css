@@ -1,0 +1,239 @@
+.admin-dashboard {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+
+/* HEADER */
+
+.admin-dashboard-header {
+    margin-bottom: 30px;
+}
+
+.admin-dashboard-label {
+    color: #1e3a8a;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.admin-dashboard-header h1 {
+    margin: 8px 0 6px;
+
+    color: #0f172a;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    letter-spacing: -1px;
+}
+
+.admin-dashboard-header p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+
+/* STATS */
+
+.admin-stats {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 16px;
+
+    margin-bottom: 24px;
+}
+
+.admin-stat-card {
+    padding: 22px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 10px;
+}
+
+.admin-stat-card span {
+    color: #64748b;
+
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.admin-stat-card strong {
+    display: block;
+
+    margin: 10px 0 5px;
+
+    color: #0f172a;
+
+    font-size: 28px;
+}
+
+.admin-stat-card p {
+    margin: 0;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+
+/* GRID */
+
+.admin-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+}
+
+
+/* CARD */
+
+.admin-card {
+    padding: 24px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 10px;
+}
+
+.admin-card-label {
+    color: #1e3a8a;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 1.2px;
+}
+
+.admin-card h2 {
+    margin: 8px 0 6px;
+
+    color: #0f172a;
+
+    font-size: 20px;
+}
+
+.admin-card p {
+    margin: 0 0 20px;
+
+    color: #64748b;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* ACTIONS */
+
+.admin-actions {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+.admin-actions button,
+.admin-secondary-button {
+    padding: 9px 13px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 7px;
+
+    background: white;
+
+    color: #1e3a8a;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.admin-actions button:hover,
+.admin-secondary-button:hover {
+    background: #f8fafc;
+}
+
+
+/* PRIMARY */
+
+.admin-primary-button {
+    padding: 10px 15px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background: #1e3a8a;
+
+    color: white;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.admin-primary-button:hover {
+    background: #172f70;
+}
+
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+
+    .admin-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .admin-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .admin-dashboard {
+        padding: 24px 16px;
+    }
+
+    .admin-dashboard-header h1 {
+        font-size: 25px;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+
+@media (max-width: 480px) {
+
+    .admin-stats {
+        grid-template-columns: 1fr;
+    }
+
+}

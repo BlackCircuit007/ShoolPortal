@@ -1,0 +1,39 @@
+.results-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 0;
+
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-info h3 {
+    margin: 0;
+
+    color: #0F172A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.result-info p {
+    margin: 5px 0 0;
+
+    color: #64748B;
+    font-size: 12px;
+}
+
+.result-score strong {
+    color: #1E3A8A;
+    font-size: 18px;
+    font-weight: 700;
+}

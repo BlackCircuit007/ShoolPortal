@@ -1,0 +1,188 @@
+.teacher-page {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 32px;
+}
+
+.teacher-page-heading {
+    margin-bottom: 28px;
+}
+
+.teacher-page-heading > span {
+    color: #1e3a8a;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.teacher-page-heading h1 {
+    margin: 7px 0 6px;
+
+    color: #0f172a;
+
+    font-size: 30px;
+}
+
+.teacher-page-heading p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+.teacher-attendance-card {
+    background: white;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.teacher-attendance-header {
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.teacher-attendance-header h2 {
+    margin: 0 0 5px;
+
+    color: #0f172a;
+
+    font-size: 18px;
+}
+
+.teacher-attendance-header p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 12px;
+}
+
+.record-attendance-button {
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 7px;
+
+    background: #1e3a8a;
+    color: white;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.record-attendance-button:hover {
+    background: #172f70;
+}
+
+.teacher-attendance-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-attendance-row {
+    padding: 22px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 30px;
+
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.teacher-attendance-row:last-child {
+    border-bottom: none;
+}
+
+.attendance-class {
+    min-width: 180px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.attendance-class strong {
+    color: #0f172a;
+
+    font-size: 14px;
+}
+
+.attendance-class span {
+    color: #64748b;
+
+    font-size: 12px;
+}
+
+.attendance-numbers {
+    display: grid;
+
+    grid-template-columns: repeat(4, 80px);
+
+    gap: 20px;
+}
+
+.attendance-numbers div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.attendance-numbers span {
+    color: #94a3b8;
+
+    font-size: 10px;
+}
+
+.attendance-numbers strong {
+    color: #0f172a;
+
+    font-size: 13px;
+}
+
+@media (max-width: 750px) {
+
+    .teacher-page {
+        padding: 24px 16px;
+    }
+
+    .teacher-attendance-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .teacher-attendance-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .attendance-numbers {
+        width: 100%;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 10px;
+    }
+
+}

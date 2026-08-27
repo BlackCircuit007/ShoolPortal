@@ -1,0 +1,45 @@
+@import './AdminPages.css';
+
+.attendance-management-grid {
+    margin-bottom: 24px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 16px;
+}
+
+.attendance-management-grid > div {
+    padding: 22px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 10px;
+}
+
+.attendance-management-grid span {
+    display: block;
+
+    color: #64748b;
+
+    font-size: 11px;
+}
+
+.attendance-management-grid strong {
+    display: block;
+
+    margin-top: 8px;
+
+    color: #0f172a;
+
+    font-size: 27px;
+}
+
+@media (max-width: 700px) {
+    .attendance-management-grid {
+        grid-template-columns: 1fr;
+    }
+}

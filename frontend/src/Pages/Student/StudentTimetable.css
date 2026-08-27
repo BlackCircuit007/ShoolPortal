@@ -1,0 +1,130 @@
+.student-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.page-heading {
+    margin-bottom: 28px;
+}
+
+.page-heading > span {
+    color: #1e3a8a;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.page-heading h1 {
+    margin: 7px 0 6px;
+
+    color: #0f172a;
+
+    font-size: 30px;
+}
+
+.page-heading p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+.timetable-card {
+    background: white;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.timetable-header {
+    padding: 24px;
+
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.timetable-header h2 {
+    margin: 0 0 5px;
+
+    color: #0f172a;
+
+    font-size: 18px;
+}
+
+.timetable-header p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 12px;
+}
+
+.timetable-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.timetable-row {
+    min-height: 70px;
+
+    padding: 15px 24px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.timetable-row:last-child {
+    border-bottom: none;
+}
+
+.timetable-time {
+    width: 80px;
+
+    color: #64748b;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.timetable-subject {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.timetable-subject strong {
+    color: #0f172a;
+
+    font-size: 14px;
+}
+
+.timetable-subject span {
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+@media (max-width: 600px) {
+
+    .student-page {
+        padding: 24px 16px;
+    }
+
+    .timetable-row {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .timetable-time {
+        width: 65px;
+    }
+
+}

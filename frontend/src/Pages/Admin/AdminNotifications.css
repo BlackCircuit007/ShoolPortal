@@ -1,0 +1,124 @@
+@import './AdminPages.css';
+
+.admin-notification-card {
+    max-width: 700px;
+
+    padding: 26px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 10px;
+}
+
+.admin-notification-card form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.admin-form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #334155;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.admin-form-group select,
+.admin-form-group textarea {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 11px 12px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    font-family: inherit;
+
+    outline: none;
+}
+
+.admin-form-group select:focus,
+.admin-form-group textarea:focus {
+    border-color: #1e3a8a;
+}
+
+.admin-notification-card form > button {
+    align-self: flex-start;
+
+    padding: 11px 18px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #1e3a8a;
+
+    color: white;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.admin-notification-card form > button:disabled {
+    opacity: 0.45;
+
+    cursor: not-allowed;
+}
+
+.admin-notification-success {
+    padding: 40px;
+
+    text-align: center;
+}
+
+.admin-notification-success > div {
+    width: 46px;
+    height: 46px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #eff6ff;
+
+    color: #1e3a8a;
+
+    font-size: 20px;
+}
+
+.admin-notification-success h2 {
+    margin: 0 0 8px;
+
+    color: #0f172a;
+
+    font-size: 18px;
+}
+
+.admin-notification-success p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 12px;
+}

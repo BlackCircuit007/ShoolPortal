@@ -1,0 +1,147 @@
+.teacher-page {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 32px;
+}
+
+.teacher-page-heading {
+    margin-bottom: 28px;
+}
+
+.teacher-page-heading > span {
+    color: #1e3a8a;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.teacher-page-heading h1 {
+    margin: 7px 0 6px;
+
+    color: #0f172a;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.teacher-page-heading p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+.teacher-profile-card {
+    padding: 30px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+
+.teacher-profile-header {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+}
+
+.teacher-avatar {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #1e3a8a;
+    color: white;
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.teacher-profile-header h2 {
+    margin: 0 0 5px;
+
+    color: #0f172a;
+
+    font-size: 20px;
+}
+
+.teacher-profile-header p {
+    margin: 0 0 8px;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+.teacher-status {
+    padding: 4px 9px;
+
+    border-radius: 20px;
+
+    background: #eff6ff;
+    color: #1d4ed8;
+
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.teacher-profile-divider {
+    height: 1px;
+
+    margin: 28px 0;
+
+    background: #e2e8f0;
+}
+
+.teacher-profile-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 24px;
+}
+
+.teacher-profile-field {
+    display: flex;
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.teacher-profile-field span {
+    color: #94a3b8;
+
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.teacher-profile-field strong {
+    color: #0f172a;
+
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .teacher-page {
+        padding: 24px 16px;
+    }
+
+    .teacher-profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

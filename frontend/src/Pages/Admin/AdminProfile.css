@@ -1,0 +1,96 @@
+@import './AdminPages.css';
+
+.admin-profile-card {
+    max-width: 760px;
+
+    padding: 28px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 10px;
+}
+
+.admin-profile-avatar {
+    width: 64px;
+    height: 64px;
+
+    margin-bottom: 16px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #1e3a8a;
+
+    color: white;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.admin-profile-info h2 {
+    margin: 0 0 5px;
+
+    color: #0f172a;
+
+    font-size: 19px;
+}
+
+.admin-profile-info p {
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 12px;
+}
+
+.admin-profile-details {
+    margin: 25px 0;
+
+    border-top: 1px solid #e2e8f0;
+}
+
+.admin-profile-details div {
+    padding: 15px 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.admin-profile-details span {
+    color: #64748b;
+
+    font-size: 12px;
+}
+
+.admin-profile-details strong {
+    color: #0f172a;
+
+    font-size: 12px;
+}
+
+.admin-profile-card > button {
+    padding: 10px 16px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 7px;
+
+    background: white;
+
+    color: #1e3a8a;
+
+    font-family: inherit;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.assignments-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.assignment-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    padding: 16px 0;
+
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.assignment-item:last-child {
+    border-bottom: none;
+}
+
+.assignment-info h3 {
+    margin: 0;
+
+    color: #0F172A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.assignment-info p {
+    margin: 5px 0 0;
+
+    color: #64748B;
+    font-size: 12px;
+}
+
+.assignment-status {
+    flex-shrink: 0;
+
+    padding: 5px 8px;
+
+    border-radius: 6px;
+
+    background-color: #F1F5F9;
+    color: #64748B;
+
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.assignment-status.urgent {
+    background-color: #FEF3C7;
+    color: #D97706;
+}

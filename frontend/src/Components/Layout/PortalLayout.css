@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.portal-layout {
+    width: 100%;
+    min-height: 100vh;
+    background: #f8fafc;
+}
+
+.portal-main {
+    width: calc(100% - 240px);
+    min-height: 100vh;
+    margin-left: 240px;
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 0;
+}
+
+.portal-content {
+    width: 100%;
+    min-width: 0;
+
+    padding: 32px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .portal-main {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .portal-content {
+        padding: 24px 16px;
+    }
+
+}

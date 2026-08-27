@@ -1,0 +1,52 @@
+@import './AdminPages.css';
+
+.results-management-grid {
+    margin-bottom: 24px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 16px;
+}
+
+.result-management-card {
+    padding: 22px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 10px;
+}
+
+.result-management-card span {
+    color: #64748b;
+
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.result-management-card strong {
+    display: block;
+
+    margin: 10px 0 5px;
+
+    color: #0f172a;
+
+    font-size: 28px;
+}
+
+.result-management-card p {
+    margin: 0;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+@media (max-width: 700px) {
+    .results-management-grid {
+        grid-template-columns: 1fr;
+    }
+}
