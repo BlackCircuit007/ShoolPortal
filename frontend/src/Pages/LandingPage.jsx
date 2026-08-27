@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './LandingPage.css'
-
+import hero from '../assets/hero.jpg'
+import student from '../assets/student.jpg'
+import teacher from '../assets/teacher.jpg'
 function LandingPage() {
     return (
         <div className="landing-page">
@@ -76,9 +78,9 @@ function LandingPage() {
     <div className="hero-image">
 
         <div className="image-placeholder">
-            <span>School Image</span>
+            {/* <span>School Image</span> */}
             <small>
-                Add your school image here
+                <img src={hero} className='image-placeholder'/>
             </small>
         </div>
 
@@ -155,9 +157,9 @@ function LandingPage() {
     <div className="role-image">
 
         <div className="image-placeholder">
-            <span>Student Image</span>
+            {/* <span>Student Image</span> */}
             <small>
-                Add your student image here
+                <img src={student} className='image-placeholder'/>
             </small>
         </div>
 
@@ -235,9 +237,9 @@ function LandingPage() {
     <div className="role-image">
 
         <div className="image-placeholder">
-            <span>Teacher Image</span>
+            {/* <span>Teacher Image</span> */}
             <small>
-                Add your teacher image here
+                <img src={teacher} className='image-placeholder' />
             </small>
         </div>
 

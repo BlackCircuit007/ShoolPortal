@@ -205,18 +205,19 @@ html {
 .hero-image {
     width: 100%;
     max-width: 520px;
-
+    /* overflow: hidden; */
     margin-left: auto;
 }
 
 .image-placeholder {
     min-height: 350px;
-
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    width: 100%;
+    max-width: 520px;
     border-radius: 18px;
 
     background: #e2e8f0;
